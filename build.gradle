@@ -8,9 +8,6 @@ buildscript {
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
 	}
-	dependencies {
-  		 runtime files(org.gradle.internal.jvm.Jvm.current().toolsJar)
-	}
 }
 
 apply plugin: 'java'

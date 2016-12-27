@@ -7,6 +7,7 @@
     <title>Hello</title>
 </head>
 <body>
+<h1> This is Go CD Pipeline Repo code </h1>
     Helloo ${name}
 </body>
 </html>
